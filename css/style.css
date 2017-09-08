@@ -1,0 +1,134 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #c39f9f;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    /*background-color: blue;*/
+}
+
+.logo__img {
+    margin-top: 8px;
+    width: 72px;
+    height: 72px;
+    /*background-color: red;*/
+    border-radius: 50px;
+    margin-left: 50px;
+    border: 3px solid black;
+}
+
+.menu {
+    float: left;
+    width: 70%;
+    /*background-color: green;*/
+    margin-top: 20px;
+}
+
+.menu__list {
+    margin-left: 265px;
+}
+
+.menu__item {
+    box-sizing: border-box;
+}
+
+.menu__item {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #6f6fde;
+    opacity: 0.8;
+}
+
+.menu__item a,
+.contacts ul li a { text-decoration: none; }
+
+.menu__item a { color: #fff; }
+
+.menu__item:hover { opacity: 1; }
+
+main {
+    width: 100%;
+    height: 360px;
+    /*background-color: gray;*/
+}
+
+.nav {
+    width: 30%;
+    height: 100%;
+    background-color: #76d6a8;
+    float: left;
+}
+
+.content {
+    width: 70%;
+    height: 100%;
+    background-color: #369bff;
+    float: left;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    background-color: #a4a4d8;
+}
+
+.copy {
+    margin-top: 12px;
+    padding-left: 25px;
+    width: 50%;
+    float: left;
+}
+
+.contacts {
+    margin-top: 12px;
+    width: 45%;
+    float: left;
+
+}
+
+.contacts ul li {
+    display: inline-block;
+    margin-right: 15px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.nav__list {
+    width: 150px;
+    height: 70%;
+}
+
+.nav__list ul { list-style: none; margin-top: 70px;}
+
+.nav__list li {
+    margin-bottom: 15px;
+    font-size: 25px;
+    /*padding: 10px;*/
+    color: #fff;
+    opacity: 0.6;
+}
+
+.nav__list li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav__list li a:hover { opacity: 1; color: #369bff; }
+
+.cont__header {
+    background-color: red;
+}
+
